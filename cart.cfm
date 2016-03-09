@@ -81,7 +81,7 @@ WHERE Category.Name = 'Add On'
 <div id="header">
 <div class="logo-bg">
   <!--logo -->
-  <div class="logo">
+  <div class="logo" onclick="document.location='/giftshop'">
     <img src="assets/images/logo.png" alt="Logo" width="202" height="52" border="0" id="logo"/>
   </div>
 
@@ -127,6 +127,7 @@ WHERE Category.Name = 'Add On'
       <thead>
       <tr style="background:silver;color:black">
         <th>Product</th>
+        <th>Item Number</th>
         <th>Unit Price</th>
         <th>Quantity</th>
         <th>Total</th>
@@ -137,7 +138,10 @@ WHERE Category.Name = 'Add On'
         <cfoutput query="Cart">
             <tr style="border:1px solid silver;">
             <td>
-                #Cart.Name#
+                <a href="productdetail.cfm?id=#Cart.ID#">#Cart.Name#</a>
+            </td>
+            <td>
+              #Cart.SKU#
             </td>
             <td style="text-align: right;">
                 #NumberFormat(Cart.Price, "$9.99")#

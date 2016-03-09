@@ -44,7 +44,7 @@
 <div id="header">
 <div class="logo-bg">
   <!--logo -->
-  <div class="logo">
+  <div class="logo" onclick="document.location='/giftshop'">
     <img src="assets/images/logo.png" alt="Logo" width="202" height="52" border="0" id="logo"/>
   </div>
 
