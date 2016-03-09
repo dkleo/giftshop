@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+<Code>2106</Code>
+<Message>org.xml.sax.SAXParseException: Datatype error: In element 'PhoneNumber' : Value '' does not match regular expression facet '\d{10,16}'..</Message>
+</Error>

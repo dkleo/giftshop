@@ -1,0 +1,85 @@
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+	bacground-color: #FFFFFF;
+}
+a {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+	color: #0066CC;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+	color: #FF0000;
+	text-decoration: underline;
+
+}
+table {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+}
+
+input {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+}
+select {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+}
+textarea {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+}
+
+.NavTitle {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+	font-weight: bold;
+	color: #000000;
+	background: url(navmenu/images/titlesbg.jpg);
+	height:25px; 
+	cursor: pointer;
+	border: #000000 1px solid;
+}
+
+.navmenu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;;
+	font-weight: 500;
+	color: #000000;
+	cursor: pointer;
+	border-left: #999999 1px solid;
+	border-right: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+	line-height: 18px;
+}
+
+.navmenu a{
+	color: #000066;
+}
+
+
+.updownarrow {
+	cursor: pointer;
+}
+
+.TableTitles {
+color: #FFFFFF; 
+background-color: #000000; 
+}
+
+.PaidSelectNo {color: #FF0000; 
+font-weight: bold;
+}
+
+.PaidSelectYes {color: #006600; 
+font-weight: bold;
+}
+
+.updatesdiv {color: #FF0000;
+font-size: 11pt;
+font-weight: bold;
+}

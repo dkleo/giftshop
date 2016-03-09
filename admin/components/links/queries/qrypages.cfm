@@ -1,0 +1,20 @@
+<cfdirectory action="list" directory="#request.catalogpath#docs#request.bslash#" name="qryPages">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

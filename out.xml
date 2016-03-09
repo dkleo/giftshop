@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<art artistid="1">
+    
+        <piece available="1" id="1">
+      <artname>charles1</artname>
+      <description>charles1</description>
+      <image>aiden01.jpg</image>
+      <price>10000</price>
+      </piece>
+    
+        <piece available="0" id="2">
+      <artname>Michael</artname>
+      <description>Michael</description>
+      <image>aiden02.jpg</image>
+      <price>13900</price>
+      </piece>
+    
+        <piece available="1" id="3">
+      <artname>Freddy</artname>
+      <description>Freddy</description>
+      <image>aiden03.jpg</image>
+      <price>12500</price>
+      </piece>
+    
+        <piece available="1" id="4">
+      <artname>Paulo</artname>
+      <description>Paulo</description>
+      <image>aiden04.jpg</image>
+      <price>11100</price>
+      </piece>
+    
+        <piece available="1" id="5">
+      <artname>Mary</artname>
+      <description>Mary</description>
+      <image>aiden05.jpg</image>
+      <price>13550</price>
+      </piece>
+    
+    </art>

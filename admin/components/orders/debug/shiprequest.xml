@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<FDXShipRequest xmlns:api="http://www.fedex.com/fsmapi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FDXShipRequest.xsd">
+	<RequestHeader>
+		<CustomerTransactionIdentifier>US Ship</CustomerTransactionIdentifier>
+		<MeterNumber>254763</MeterNumber>
+		<AccountNumber>349150107</AccountNumber>
+		<CarrierCode>FDXG</CarrierCode>
+	</RequestHeader>		
+	<RequestType>SHIP</RequestType>
+	<ShipDate>2008-04-01</ShipDate>
+	<ShipTime>13:32:11</ShipTime>
+	<DropoffType>REGULARPICKUP</DropoffType>
+	<Service>FEDEXGROUND</Service>
+	<Packaging>YOURPACKAGING</Packaging>
+	<WeightUnits>LBS</WeightUnits>
+	<Weight>10.0</Weight>
+	<CurrencyCode>USD</CurrencyCode>
+	<ListRate>1</ListRate>
+	
+	<Origin>
+		<Contact>
+			<PersonName>Bruce Wahlstrom</PersonName>
+			<CompanyName>Lake Weeders Digest LLC</CompanyName>
+			<Department>Shipping</Department>
+			<PhoneNumber>7635511441</PhoneNumber>
+			
+			
+			
+		</Contact>
+		<Address>
+			<Line1>12175 48th Circle N</Line1>
+			
+			<City>Plymouth</City>
+			<StateOrProvinceCode>MN</StateOrProvinceCode>
+			<PostalCode>55442</PostalCode>
+			<CountryCode>US</CountryCode>
+		</Address>
+	</Origin>
+	<Destination>
+		<Contact>
+			<PersonName>Frank Nelson</PersonName>
+			<CompanyName>n.a.</CompanyName>
+			
+			<PhoneNumber></PhoneNumber>
+			
+			
+			
+		</Contact>
+		<Address>
+			<Line1>4175 RT-91</Line1>
+			
+			<City>Jamesville</City>
+			<StateOrProvinceCode>NY</StateOrProvinceCode>
+			<PostalCode>13078</PostalCode>
+			<CountryCode>US</CountryCode>
+		</Address>
+	</Destination>
+	<Payment>
+		<PayorType>SENDER</PayorType>
+		
+		
+	</Payment>
+	
+	<Dimensions>
+		<Length>5</Length>
+		<Width>5</Width>
+		<Height>5</Height>
+		<Units>IN</Units>
+	</Dimensions>
+	
+	<SpecialServices>
+			
+			
+			
+			
+			
+			<ResidentialDelivery>1</ResidentialDelivery>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</SpecialServices>
+	
+	<Label>
+		<Type>2DCOMMON</Type>
+		<ImageType>PDF</ImageType>
+		
+	</Label>
+	
+	
+	</FDXShipRequest>

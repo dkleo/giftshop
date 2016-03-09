@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<FDXRateAvailableServicesRequest xmlns:api="http://www.fedex.com/fsmapi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FDXRateAvailableServicesRequest.xsd">
+		<RequestHeader>
+			<CustomerTransactionIdentifier>Admin Pro Tools Available Services Request</CustomerTransactionIdentifier>
+			<MeterNumber>101480527 </MeterNumber>
+			<AccountNumber>116498626</AccountNumber>
+		</RequestHeader>
+		<ShipDate>2011-04-04</ShipDate>
+		<DropoffType>REGULARPICKUP</DropoffType>
+		<Packaging>YOURPACKAGING</Packaging>
+		<WeightUnits>LBS</WeightUnits>
+		<Weight>10</Weight>
+		<ListRate>1</ListRate>
+		<OriginAddress>
+			<StateOrProvinceCode>GA</StateOrProvinceCode>
+			<PostalCode>30324</PostalCode>
+			<CountryCode>US</CountryCode>
+		</OriginAddress>
+		<DestinationAddress>
+			<StateOrProvinceCode>CA</StateOrProvinceCode>
+			<PostalCode>90046</PostalCode>
+			<CountryCode>US</CountryCode>
+		</DestinationAddress>
+		<Payment>
+			<PayorType>SENDER</PayorType>
+		</Payment>
+		<Dimension>
+			<Length>4</Length>
+			<Width>4</Width>
+			<Height>4</Height>
+			<Units>IN</Units>
+		</Dimension>
+		<DeclaredValue>
+			<Value>500.00</Value>
+			<CurrencyCode>USD</CurrencyCode>
+		</DeclaredValue>
+		
+		<SpecialServices>
+			
+			
+			
+			
+			<ResidentialDelivery>1</ResidentialDelivery>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</SpecialServices>
+		
+		<PackageCount>1</PackageCount>
+	</FDXRateAvailableServicesRequest>
